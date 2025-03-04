@@ -37,10 +37,10 @@ class Config(object):
     LOGGER = logging
     OWNER_ID = "910674886"
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = "-1001567964220"
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = "savecintent"
     ADL_BOT_RQ = {}
 
     # Set False off else True

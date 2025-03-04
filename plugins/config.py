@@ -27,20 +27,20 @@ class Config(object):
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
     PROCESS_MAX_TIMEOUT = 3600
-    DEF_WATER_MARK_FILE = "@UploaderXNTBot"
+    DEF_WATER_MARK_FILE = "@Drago"
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
     DATABASE_URL = "mongodb+srv://TGBot:Save@koyeb.vvt99ro.mongodb.net/?retryWrites=true&w=majority&appName=Koyeb"
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = "-1001567964220"
     LOGGER = logging
     OWNER_ID = "910674886"
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = "-1001567964220"
+    UPDATES_CHANNEL = "savecintent"
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = "savecintent"
+    BOT_USERNAME = "Linkxtbot"
     ADL_BOT_RQ = {}
 
     # Set False off else True
